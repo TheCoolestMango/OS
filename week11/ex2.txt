@@ -1,0 +1,3 @@
+Printf writes at the end of the buffer.
+In the first program buffer was forked, and hence was in multiple processes, so "Hello" was printed twice. 
+In the second case "\n" ended the buffer and was printed immediately.
