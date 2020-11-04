@@ -1,3 +1,8 @@
+Due to O_SYNC, the call will not return before all data has been transferred to the disk.
+Hence, the data transfer is slower.
+Otherwise, we are utilize cache, so data transferis faster.
+
+Without the O_SYNC
 real    0m 0.09s
 user    0m 0.00s
 sys     0m 0.04s
