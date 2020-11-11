@@ -1,0 +1,10 @@
+Recovery, prevention and avoidance
+__________________________________
+I) Recovery
+  1) In case the simplicity is preferable, then prevention with attacking the Mutual-Exclusion Condition is a simple strategy, however it could lead to livelock;
+  2) In case only a certain type of resourses is needed Prevention with attacking the No-Preemption Condition;
+  3) In case of working in batch, prevention with attacking No-Preemption Condition works well in batch, but it requires to know all of the resourses before working; 
+  
+II) Avoidance
+  4) And in case it's preferable that there would be no preemption, the Avoidance strategy does not require it, but it may block process for long periods of time 
+     as well as future resourse requirements have to be known in advance
